@@ -1,0 +1,12 @@
+org/example/Magican.java
+ org.example.Magican
+org/example/HarryPotter.java
+ org.example.HarryPotter
+org/example/Voldemort.java
+ org.example.Voldemort
+org/example/RonWeesly.java
+ org.example.RonWeesly
+org/example/Test.java
+ org.example.Test
+org/example/BeanConfig.java
+ org.example.BeanConfig
