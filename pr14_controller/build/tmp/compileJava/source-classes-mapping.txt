@@ -1,0 +1,20 @@
+com/example/config/WebAppInit.java
+ com.example.config.WebAppInit
+com/example/controllers/MyController.java
+ com.example.controllers.MyController
+com/example/ServingWebContentApplication.java
+ com.example.ServingWebContentApplication
+com/example/config/HibernateUtil.java
+ com.example.config.HibernateUtil
+com/example/Manufacture.java
+ com.example.Manufacture
+com/example/controllers/WorkerController.java
+ com.example.controllers.WorkerController
+com/example/controllers/ManufactureController.java
+ com.example.controllers.ManufactureController
+com/example/dao/ManufactureDAO.java
+ com.example.dao.ManufactureDAO
+com/example/Worker.java
+ com.example.Worker
+com/example/dao/WorkerDAO.java
+ com.example.dao.WorkerDAO

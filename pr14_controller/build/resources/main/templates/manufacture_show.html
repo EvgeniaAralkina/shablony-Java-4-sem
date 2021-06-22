@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>manufacture</title>
+</head>
+<body>
+<div>
+ID: <p th:text="${manufacture.getId()}">VALUE</p>
+Name: <p th:text="${manufacture.getName()}">VALUE</p>
+Address: <p th:text="${manufacture.getAddress()}">VALUE</p>
+<br/>
+</div>
+
+<form th:method="post" th:action="@{/manufacture/{id}(id=${manufacture.getId()})}">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete"/>
+</form>
+
+</body>
+</html>

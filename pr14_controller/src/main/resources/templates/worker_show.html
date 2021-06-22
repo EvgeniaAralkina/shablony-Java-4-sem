@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>worker</title>
+</head>
+<body>
+<div>
+    ID: <p th:text="${worker.getId()}">VALUE</p>
+    FirstName: <p th:text="${worker.getFirstName()}">VALUE</p> <br/>
+    MiddleName: <p th:text="${worker.getMiddleName()}">VALUE</p><br/>
+    LastName: <p th:text="${worker.getLastName()}">VALUE</p><br/>
+</div>
+
+<form th:method="post" th:action="@{/worker/{id}(id=${worker.getId()})}">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete"/>
+</form>
+
+</body>
+</html>

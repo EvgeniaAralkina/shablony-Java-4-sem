@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>all manufacture</title>
+</head>
+<body>
+<div th:each="manufactures : ${manufacture}">
+     ID: <td th:text="${manufactures.getId()}">id</td>
+     Name: <td th:text="${manufactures.getName()}">name</td>
+     Address: <td th:text="${manufactures.getAddress()}">ad</td>
+    <!-- <a th:href="@{/man/{name}(name=${manufacture.getName()})}" th:text="${manufacture.getAddress()}">user</a> -->
+</div>
+</body>
+</html>
