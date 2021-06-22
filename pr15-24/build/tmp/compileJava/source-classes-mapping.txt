@@ -1,0 +1,42 @@
+com/example/config/MvcConfig.java
+ com.example.config.MvcConfig
+com/example/controllers/RegistrationController.java
+ com.example.controllers.RegistrationController
+com/example/User.java
+ com.example.User
+com/example/Manufacture.java
+ com.example.Manufacture
+com/example/ServingWebContentApplication.java
+ com.example.ServingWebContentApplication
+com/example/dao/ManufactureService.java
+ com.example.dao.ManufactureService
+com/example/Worker.java
+ com.example.Worker
+com/example/controllers/MyController.java
+ com.example.controllers.MyController
+com/example/aspect/MyAspect.java
+ com.example.aspect.MyAspect
+com/example/config/Config.java
+ com.example.config.Config
+com/example/repository/ManufactureRepository.java
+ com.example.repository.ManufactureRepository
+com/example/repository/UserRepository.java
+ com.example.repository.UserRepository
+com/example/dao/WorkerService.java
+ com.example.dao.WorkerService
+com/example/Role.java
+ com.example.Role
+com/example/dao/SchedulerService.java
+ com.example.dao.SchedulerService
+com/example/config/WebSecurityConfig.java
+ com.example.config.WebSecurityConfig
+com/example/repository/WorkerRepository.java
+ com.example.repository.WorkerRepository
+com/example/config/WebAppInit.java
+ com.example.config.WebAppInit
+com/example/controllers/WorkerController.java
+ com.example.controllers.WorkerController
+com/example/controllers/ManufactureController.java
+ com.example.controllers.ManufactureController
+com/example/dao/EmailService.java
+ com.example.dao.EmailService
