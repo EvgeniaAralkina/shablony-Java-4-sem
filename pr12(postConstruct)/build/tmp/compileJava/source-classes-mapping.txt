@@ -1,0 +1,6 @@
+org/example/MyApplication.java
+ org.example.MyApplication
+org/example/Test.java
+ org.example.Test
+org/example/BeanConfig.java
+ org.example.BeanConfig
